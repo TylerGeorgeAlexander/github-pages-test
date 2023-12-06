@@ -3,9 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>GitHub Pages Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #2980b9 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            overflow: hidden;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header .highlight, header .current a {
+            color: #e8491d;
+            font-weight: bold;
+        }
+        header a:hover {
+            color: #ffffff;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <h1>Test</h1>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">GitHub</span> Pages Demo</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="#introduction">Introduction</a></li>
+                    <li><a href="#deployment">Deployment</a></li>
+                    <li><a href="#custom-domain">Custom Domain</a></li>
+                    <li><a href="#troubleshooting">Troubleshooting</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="introduction">
+            <h2>Welcome to the GitHub Pages Test Site</h2>
+            <p>This page is a live demonstration related to the README.md guide on deploying websites with GitHub Pages.</p>
+        </section>
+
+        <section id="deployment">
+            <h2>Website Deployment Steps</h2>
+            <p>Learn how to deploy your website on GitHub Pages.</p>
+            <!-- Additional content here -->
+        </section>
+
+        <section id="custom-domain">
+            <h2>Setting Up a Custom Domain</h2>
+            <p>Instructions on linking a custom domain to your GitHub Pages site.</p>
+            <!-- Additional content here -->
+        </section>
+
+        <section id="troubleshooting">
+            <h2>Solving Common Issues</h2>
+            <p>Troubleshooting tips and resources for GitHub Pages.</p>
+            <!-- Additional content here -->
+        </section>
+    </div>
 </body>
 </html>
