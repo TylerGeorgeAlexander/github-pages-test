@@ -101,9 +101,17 @@
 
         <section id="custom-domain">
             <h2>Setting Up a Custom Domain</h2>
-            <p>Instructions on linking a custom domain to your GitHub Pages site.</p>
-            <!-- Additional content here -->
+            <p>Customize your GitHub Pages site with a personal domain. Follow these steps:</p>
+            <ol>
+                <li><strong>Purchase a Domain:</strong> If you don't already own a domain, purchase one from a domain registrar.</li>
+                <li><strong>Update DNS Records:</strong> Configure the DNS records for your domain. You'll need to set an A record pointing to GitHub's IP addresses, or a CNAME record if you're using a subdomain.</li>
+                <li><strong>Add Domain to GitHub Repository:</strong> In your GitHub repository settings, go to the "Pages" section and add your custom domain in the "Custom domain" field.</li>
+                <li><strong>Verify Domain Configuration:</strong> After adding your domain to GitHub, verify the configuration. It might take some time for DNS changes to propagate.</li>
+                <li><strong>Enable HTTPS (Optional but Recommended):</strong> For security, enable HTTPS on your GitHub Pages site. GitHub provides automated certificates through Let's Encrypt.</li>
+            </ol>
+            <p>Linking a custom domain can give your GitHub Pages site a more professional appearance. Refer to <a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site">GitHub's documentation</a> for more detailed instructions.</p>
         </section>
+        
 
         <section id="troubleshooting">
             <h2>Solving Common Issues</h2>
