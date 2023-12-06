@@ -1,15 +1,21 @@
-# GitHub Pages Test
+# Welcome to GitHub Pages Guide
 
 This repository contains a simple HTML5 page created to guide users through the process of deploying a website to GitHub Pages. Whether you're a beginner or just looking for a quick reference, this page will help you get your website up and running on GitHub Pages in no time.
 
+[Explore the Live Site](https://tylergeorgealexander.github.io/github-pages-test/)
+
 ## Table of Contents
 
+- [Preview of the Live Site](#preview-of-the-live-site)
 - [Getting Started](#getting-started)
 - [Deploying to GitHub Pages](#deploying-to-github-pages)
 - [Custom Domain](#custom-domain)
 - [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
 - [License](#license)
+
+## Preview of the Live Site
+![Preview of the Live Site](github-pages-demo.png)
 
 ## Getting Started
 
